@@ -7,14 +7,13 @@ from pandas import ExcelFile
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
 import calendar
 from datetime import date
 import holidays
 
-train = pd.read_csv('train.csv')
-building = pd.read_csv('building_metadata.csv')
-weather_data=pd.read_csv('weather_train.csv')
+train = pd.read_csv('/Users/kylebaranko/ashrae-energy-prediction/train.csv')
+building = pd.read_csv('/Users/kylebaranko/ashrae-energy-prediction/building_metadata.csv')
+weather_data=pd.read_csv('/Users/kylebaranko/ashrae-energy-prediction/weather_train.csv')
 
 
 # Site 0 Meter Conversion
